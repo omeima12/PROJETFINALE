@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 30px 30px;
+    padding-top: 20px 20px;
+
+}
+/* !header  */
+.header{
+    background-color: rgb(229, 247, 245);
+    padding:  100px;
+
+}
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+}
+.header-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(44, 72, 95);
+}
+.btn {
+    border-radius: 50px;
+    width: 15%;
+    background-color: rgb(1, 183, 182);
+    color: white;
+    border: none;
+    transition: all
+}
+.header-link2{
+    text-decoration: none;
+    color: gainsboro;
+}
+.last-link-header{
+    color: gray;
+    text-decoration: none;
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.last-link{
+    display: flex;
+    gap: 10px;
+}
+.titre-headr{
+    color: rgb(41, 73, 95);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* todo section  */
+.first-div-child1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.first-div-child2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+
+}
+.second-div-child3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.Containr-div-zwei{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.first-Crds1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grey{
+    color: gray;
+}
+.your-name{
+    display: flex;
+}
+.submit{
+    background-color: rgb(0, 183, 181);
+    border-radius: 50px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.input-form{
+    display: flex;
+    border: none;
+    flex-direction: column;
+    /* width: 500px; */
+    /* padding: 20px; */
+    /* height: 5px; */
+}
+.inputt{
+    display: flex;
+    border: 1px solid gainsboro;
+    color: hsl(0, 0%, 92%);
+    width: 500px;
+    height: 40px;
+}
+.text-area{
+    width: 500px;
+    height: 120px;
+    justify-content: center;
+}
+/* TODO FOOTER  */
+.footer{
+    background-color: rgb(0, 84, 97);
+    /* width: 200%; */
+    padding: 10px;
+    /* height: 500px; */
+}
+.container-div-footer{
+    display: flex;
+    gap: 40px;
+    padding:40px ;
+}
+.first-chld1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Optlx{
+    color: white;
+}
+.PARAG{
+    color: gainsboro;
+}
+.Icons-Footr{
+    display: flex;
+    gap: 30px;
+    color: gainsboro;
+}
+.second-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.PARAG1{
+    color: gainsboro;
+}
+.third-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lst-child{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+.about-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.last-div-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Copy{
+    font-weight: bold;
+    color: white;
+}
+.policy{
+    display: flex;
+    gap: 10px;
+}
